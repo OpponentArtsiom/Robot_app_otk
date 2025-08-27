@@ -24,14 +24,15 @@ void initDatabase() {
            "fault_reason TEXT,"
            "tasks_done TEXT,"
            "tasks_required TEXT,"
-           "required_parts TEXT"
+           "required_parts TEXT,"
+           "note TEXT"
            ")");
 }
 
 void insertEmptyRobot() {
     QSqlQuery q;
-    q.prepare("INSERT INTO robots (model, robot_sn, controller_sn, status, fault_description, fault_module, fault_reason, tasks_done, tasks_required, required_parts) "
-              "VALUES ('-', '', '', '-', '', '', '', '', '', '')");
+    q.prepare("INSERT INTO robots (model, robot_sn, controller_sn, status, fault_description, fault_module, fault_reason, tasks_done, tasks_required, required_parts, note) "
+              "VALUES ('-', '', '', '-', '', '', '', '', '', '', '')");
     q.exec();
 }
 
@@ -44,11 +45,12 @@ void insertRobot(const QString &model,
                  const QString &fault_reason,
                  const QString &tasks_done,
                  const QString &tasks_required,
-                 const QString &required_parts)
+                 const QString &required_parts,
+                 const QString &note)
 {
     QSqlQuery q;
-    q.prepare("INSERT INTO robots (model, robot_sn, controller_sn, status, fault_description, fault_module, fault_reason, tasks_done, tasks_required, required_parts) "
-              "VALUES (:model, :robot_sn, :controller_sn, :status, :fault_description, :fault_module, :fault_reason, :tasks_done, :tasks_required, :required_parts)");
+    q.prepare("INSERT INTO robots (model, robot_sn, controller_sn, status, fault_description, fault_module, fault_reason, tasks_done, tasks_required, required_parts, note) "
+              "VALUES (:model, :robot_sn, :controller_sn, :status, :fault_description, :fault_module, :fault_reason, :tasks_done, :tasks_required, :required_parts, :note)");
 
     q.bindValue(":model", model);
     q.bindValue(":robot_sn", robot_sn);
@@ -60,6 +62,13 @@ void insertRobot(const QString &model,
     q.bindValue(":tasks_done", tasks_done);
     q.bindValue(":tasks_required", tasks_required);
     q.bindValue(":required_parts", required_parts);
+    q.bindValue(":note", note);
+
+    qDebug() << "Запрос:" << q.lastQuery();
+        for (const auto &key : q.boundValues().keys()) {
+            qDebug() << "Параметр:" << key << "=" << q.boundValues().value(key).toString();
+        }
+
 
     if (!q.exec()) {
         qDebug() << "Ошибка при добавлении робота:" << q.lastError().text();
@@ -97,6 +106,8 @@ QList<QMap<QString, QString>> getAllRobots() {
         robot["tasks_done"] = q.value("tasks_done").toString();
         robot["tasks_required"] = q.value("tasks_required").toString();
         robot["required_parts"] = q.value("required_parts").toString();
+        robot["note"] = q.value("note").toString();
+
         list.append(robot);
     }
     return list;

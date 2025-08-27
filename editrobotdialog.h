@@ -28,6 +28,7 @@ private:
     QPlainTextEdit *doneEdit;
     QPlainTextEdit *requiredEdit;
     QPlainTextEdit *partsEdit;
+    QPlainTextEdit *noteEdit;
 
     void loadRobotData();
 };

@@ -1,7 +1,9 @@
 #include "addrobotdialog.h"
+#include "qplaintextedit.h"
 
 AddRobotDialog::AddRobotDialog(QWidget *parent) : QDialog(parent) {
     setWindowTitle("Добавить нового робота");
+    setFixedSize(600, 500);
 
     modelBox = new QComboBox();
     modelBox->addItems({"RC3", "RC5", "RC10", "-"});
@@ -18,6 +20,7 @@ AddRobotDialog::AddRobotDialog(QWidget *parent) : QDialog(parent) {
     doneEdit = new QPlainTextEdit();
     requiredEdit = new QPlainTextEdit();
     partsEdit = new QPlainTextEdit();
+    noteEdit = new QPlainTextEdit();
 
     QFormLayout *form = new QFormLayout();
     form->addRow("Модель:", modelBox);
@@ -30,6 +33,7 @@ AddRobotDialog::AddRobotDialog(QWidget *parent) : QDialog(parent) {
     form->addRow("Проведённые работы:", doneEdit);
     form->addRow("Планируемые работы:", requiredEdit);
     form->addRow("Необходимые запчасти:", partsEdit);
+    form->addRow("Примечание:", noteEdit);
 
     QPushButton *ok = new QPushButton("✅ Добавить");
     QPushButton *cancel = new QPushButton("❌ Отмена");
@@ -57,6 +61,9 @@ QString AddRobotDialog::getField(const QString &name) const {
     if (name == "tasks_done") return doneEdit->toPlainText();
     if (name == "tasks_required") return requiredEdit->toPlainText();
     if (name == "required_parts") return partsEdit->toPlainText();
+    if (name == "note") return noteEdit->toPlainText();
+
+
     return "";
 }
 

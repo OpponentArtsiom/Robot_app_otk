@@ -1,4 +1,5 @@
 #pragma once
+#include "qplaintextedit.h"
 #include <QDialog>
 #include <QLineEdit>
 #include <QComboBox>
@@ -25,5 +26,6 @@ private:
     QPlainTextEdit *doneEdit;
     QPlainTextEdit *requiredEdit;
     QPlainTextEdit *partsEdit;
+    QPlainTextEdit *noteEdit;
 };
 

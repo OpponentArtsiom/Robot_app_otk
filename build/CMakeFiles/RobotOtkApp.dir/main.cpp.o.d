@@ -1,5 +1,6 @@
 CMakeFiles/RobotOtkApp.dir/main.cpp.o: \
- /home/artsiom/MY/QT_C++/test/main.cpp /usr/include/stdc-predef.h \
+ /home/artsiom/MY/QT_C++/program_for_otk/main.cpp \
+ /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -253,7 +254,7 @@ CMakeFiles/RobotOtkApp.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
  /usr/include/c++/12/variant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
- /home/artsiom/MY/QT_C++/test/mainwindow.h \
+ /home/artsiom/MY/QT_C++/program_for_otk/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \

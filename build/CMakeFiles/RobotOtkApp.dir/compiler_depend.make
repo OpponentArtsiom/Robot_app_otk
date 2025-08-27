@@ -132,9 +132,8 @@ CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o: RobotOtkA
   /usr/include/c++/12/backward/auto_ptr.h \
   /usr/include/c++/12/pstl/glue_memory_defs.h \
   /usr/include/c++/12/pstl/execution_defs.h \
-  /home/artsiom/MY/QT_C++/test/addrobotdialog.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/addrobotdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
@@ -182,6 +181,9 @@ CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o: RobotOtkA
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
@@ -330,16 +332,31 @@ CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o: RobotOtkA
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/c++/12/variant \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
@@ -358,22 +375,6 @@ CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o: RobotOtkA
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPlainTextEdit \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
@@ -388,13 +389,13 @@ CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o: RobotOtkA
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
   RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp \
-  /home/artsiom/MY/QT_C++/test/editrobotdialog.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/editrobotdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QMap \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
   RobotOtkApp_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  /home/artsiom/MY/QT_C++/test/mainwindow.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
@@ -406,11 +407,10 @@ CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o: RobotOtkA
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
 
-CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/addrobotdialog.cpp \
+CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/program_for_otk/addrobotdialog.cpp \
   /usr/include/stdc-predef.h \
-  /home/artsiom/MY/QT_C++/test/addrobotdialog.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/addrobotdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
@@ -524,6 +524,9 @@ CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/ad
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
@@ -734,16 +737,31 @@ CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/ad
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/c++/12/variant \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
@@ -762,22 +780,6 @@ CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/ad
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPlainTextEdit \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
@@ -792,9 +794,9 @@ CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/ad
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
 
-CMakeFiles/RobotOtkApp.dir/database.cpp.o: /home/artsiom/MY/QT_C++/test/database.cpp \
+CMakeFiles/RobotOtkApp.dir/database.cpp.o: /home/artsiom/MY/QT_C++/program_for_otk/database.cpp \
   /usr/include/stdc-predef.h \
-  /home/artsiom/MY/QT_C++/test/database.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/database.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
@@ -1114,9 +1116,9 @@ CMakeFiles/RobotOtkApp.dir/database.cpp.o: /home/artsiom/MY/QT_C++/test/database
   /usr/include/c++/12/backward/auto_ptr.h \
   /usr/include/c++/12/pstl/glue_memory_defs.h
 
-CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/editrobotdialog.cpp \
+CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/program_for_otk/editrobotdialog.cpp \
   /usr/include/stdc-predef.h \
-  /home/artsiom/MY/QT_C++/test/editrobotdialog.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/editrobotdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -1446,9 +1448,34 @@ CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/e
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
-  /home/artsiom/MY/QT_C++/test/database.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/database.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/c++/12/variant \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
@@ -1464,9 +1491,6 @@ CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/e
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
-  /usr/include/c++/12/variant \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
@@ -1477,32 +1501,11 @@ CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/e
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPlainTextEdit \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
@@ -1510,7 +1513,7 @@ CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/e
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 
-CMakeFiles/RobotOtkApp.dir/main.cpp.o: /home/artsiom/MY/QT_C++/test/main.cpp \
+CMakeFiles/RobotOtkApp.dir/main.cpp.o: /home/artsiom/MY/QT_C++/program_for_otk/main.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
@@ -1811,7 +1814,7 @@ CMakeFiles/RobotOtkApp.dir/main.cpp.o: /home/artsiom/MY/QT_C++/test/main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
   /usr/include/c++/12/variant \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
-  /home/artsiom/MY/QT_C++/test/mainwindow.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
@@ -1877,9 +1880,9 @@ CMakeFiles/RobotOtkApp.dir/main.cpp.o: /home/artsiom/MY/QT_C++/test/main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
 
-CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o: /home/artsiom/MY/QT_C++/test/mainwindow.cpp \
+CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o: /home/artsiom/MY/QT_C++/program_for_otk/mainwindow.cpp \
   /usr/include/stdc-predef.h \
-  /home/artsiom/MY/QT_C++/test/mainwindow.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
@@ -2236,29 +2239,22 @@ CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o: /home/artsiom/MY/QT_C++/test/mainwi
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
-  /home/artsiom/MY/QT_C++/test/database.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/database.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QMap \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
-  /home/artsiom/MY/QT_C++/test/addrobotdialog.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPlainTextEdit \
+  /home/artsiom/MY/QT_C++/program_for_otk/addrobotdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
@@ -2270,6 +2266,14 @@ CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o: /home/artsiom/MY/QT_C++/test/mainwi
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPlainTextEdit \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
@@ -2280,7 +2284,7 @@ CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o: /home/artsiom/MY/QT_C++/test/mainwi
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
-  /home/artsiom/MY/QT_C++/test/editrobotdialog.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/editrobotdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
@@ -2293,19 +2297,17 @@ CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o: /home/artsiom/MY/QT_C++/test/mainwi
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem:
 
-/home/artsiom/MY/QT_C++/test/mainwindow.cpp:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
 
+/home/artsiom/MY/QT_C++/program_for_otk/main.cpp:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox:
-
-/home/artsiom/MY/QT_C++/test/editrobotdialog.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h:
 
@@ -2317,15 +2319,21 @@ CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o: /home/artsiom/MY/QT_C++/test/mainwi
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlerror.h:
 
-/home/artsiom/MY/QT_C++/test/database.cpp:
+/home/artsiom/MY/QT_C++/program_for_otk/database.cpp:
+
+/home/artsiom/MY/QT_C++/program_for_otk/addrobotdialog.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h:
 
+/home/artsiom/MY/QT_C++/program_for_otk/mainwindow.h:
+
 RobotOtkApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
-/home/artsiom/MY/QT_C++/test/editrobotdialog.h:
+/home/artsiom/MY/QT_C++/program_for_otk/editrobotdialog.h:
 
 RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
+
+/home/artsiom/MY/QT_C++/program_for_otk/editrobotdialog.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout:
 
@@ -2342,16 +2350,6 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPlainTextEdit:
 
@@ -2373,17 +2371,23 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:
-
-/usr/include/c++/12/variant:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h:
 
@@ -2394,6 +2398,10 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h:
 
@@ -2410,10 +2418,6 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h:
 
@@ -2477,6 +2481,8 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
 
 /usr/include/c++/12/list:
 
+/home/artsiom/MY/QT_C++/program_for_otk/database.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h:
 
 /usr/include/c++/12/array:
@@ -2487,11 +2493,13 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
 
 /usr/include/c++/12/bits/erase_if.h:
 
+/usr/include/c++/12/bits/enable_special_members.h:
+
+/usr/include/c++/12/bits/hashtable_policy.h:
+
 /usr/include/c++/12/bits/shared_ptr_atomic.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -2508,8 +2516,6 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/time.h:
-
-/home/artsiom/MY/QT_C++/test/mainwindow.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h:
 
@@ -2585,8 +2591,6 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
 
 /usr/include/c++/12/backward/binders.h:
 
-/home/artsiom/MY/QT_C++/test/database.h:
-
 /usr/include/c++/12/bits/stl_function.h:
 
 /usr/include/c++/12/bits/std_function.h:
@@ -2597,6 +2601,10 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
 
 /usr/include/c++/12/bits/uses_allocator.h:
 
+/usr/include/c++/12/variant:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/12/bits/move.h:
@@ -2606,8 +2614,6 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
 /usr/include/c++/12/utility:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/12/algorithm:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
@@ -2693,8 +2699,6 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_editrobotdialog.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsql-config.h:
 
-/home/artsiom/MY/QT_C++/test/addrobotdialog.cpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
@@ -2727,11 +2731,17 @@ RobotOtkApp_autogen/mocs_compilation.cpp:
 
 RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp:
 
+/usr/include/c++/12/algorithm:
+
+/home/artsiom/MY/QT_C++/program_for_otk/addrobotdialog.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/12/bits/exception_defines.h:
 
@@ -2769,6 +2779,8 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp:
 
 /usr/include/c++/12/bits/stl_iterator.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
+
 /usr/include/c++/12/bits/exception.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
@@ -2781,13 +2793,7 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/c++/12/bits/hashtable_policy.h:
-
 /usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/c++/12/bits/stl_iterator_base_types.h:
 
@@ -2875,6 +2881,8 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp:
 
 /usr/include/asm-generic/errno-base.h:
 
+/home/artsiom/MY/QT_C++/program_for_otk/mainwindow.cpp:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:
@@ -2909,23 +2917,13 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp:
 
 /usr/include/c++/12/pstl/execution_defs.h:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/home/artsiom/MY/QT_C++/test/addrobotdialog.h:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/usr/include/c++/12/bits/vector.tcc:
 
-/usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QList:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h:
+/usr/include/c++/12/ext/string_conversions.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:
 
@@ -3017,8 +3015,6 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h:
 
-/home/artsiom/MY/QT_C++/test/main.cpp:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h:
 
 /usr/include/c++/12/bits/unordered_map.h:
@@ -3029,11 +3025,21 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QList:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
 
@@ -3067,10 +3073,6 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp:
 
 /usr/include/c++/12/bits/cxxabi_forced.h:
 
-/usr/include/c++/12/bits/vector.tcc:
-
-/usr/include/c++/12/ext/string_conversions.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h:
@@ -3082,6 +3084,10 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp:
 /usr/include/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/asm-generic/errno.h:
 
 /usr/include/c++/12/bits/basic_string.tcc:
 
@@ -3142,5 +3148,3 @@ RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
 
 /usr/include/c++/12/unordered_map:
-
-/usr/include/c++/12/bits/enable_special_members.h:

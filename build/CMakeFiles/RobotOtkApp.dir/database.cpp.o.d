@@ -1,6 +1,7 @@
 CMakeFiles/RobotOtkApp.dir/database.cpp.o: \
- /home/artsiom/MY/QT_C++/test/database.cpp /usr/include/stdc-predef.h \
- /home/artsiom/MY/QT_C++/test/database.h \
+ /home/artsiom/MY/QT_C++/program_for_otk/database.cpp \
+ /usr/include/stdc-predef.h \
+ /home/artsiom/MY/QT_C++/program_for_otk/database.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \

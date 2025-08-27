@@ -1,5 +1,5 @@
-/home/artsiom/MY/QT_C++/test/build/RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp: /home/artsiom/MY/QT_C++/test/addrobotdialog.h \
-  /home/artsiom/MY/QT_C++/test/build/RobotOtkApp_autogen/moc_predefs.h \
+/home/artsiom/MY/QT_C++/program_for_otk/build/RobotOtkApp_autogen/EWIEGA46WW/moc_addrobotdialog.cpp: /home/artsiom/MY/QT_C++/program_for_otk/addrobotdialog.h \
+  /home/artsiom/MY/QT_C++/program_for_otk/build/RobotOtkApp_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

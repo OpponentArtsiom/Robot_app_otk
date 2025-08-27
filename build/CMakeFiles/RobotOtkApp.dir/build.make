@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artsiom/MY/QT_C++/test
+CMAKE_SOURCE_DIR = /home/artsiom/MY/QT_C++/program_for_otk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artsiom/MY/QT_C++/test/build
+CMAKE_BINARY_DIR = /home/artsiom/MY/QT_C++/program_for_otk/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RobotOtkApp.dir/depend.make
@@ -72,86 +72,86 @@ include CMakeFiles/RobotOtkApp.dir/flags.make
 CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o: CMakeFiles/RobotOtkApp.dir/flags.make
 CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o: RobotOtkApp_autogen/mocs_compilation.cpp
 CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o: CMakeFiles/RobotOtkApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o -c /home/artsiom/MY/QT_C++/test/build/RobotOtkApp_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/program_for_otk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.o -c /home/artsiom/MY/QT_C++/program_for_otk/build/RobotOtkApp_autogen/mocs_compilation.cpp
 
 CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/test/build/RobotOtkApp_autogen/mocs_compilation.cpp > CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/program_for_otk/build/RobotOtkApp_autogen/mocs_compilation.cpp > CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/test/build/RobotOtkApp_autogen/mocs_compilation.cpp -o CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/program_for_otk/build/RobotOtkApp_autogen/mocs_compilation.cpp -o CMakeFiles/RobotOtkApp.dir/RobotOtkApp_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/RobotOtkApp.dir/main.cpp.o: CMakeFiles/RobotOtkApp.dir/flags.make
-CMakeFiles/RobotOtkApp.dir/main.cpp.o: /home/artsiom/MY/QT_C++/test/main.cpp
+CMakeFiles/RobotOtkApp.dir/main.cpp.o: /home/artsiom/MY/QT_C++/program_for_otk/main.cpp
 CMakeFiles/RobotOtkApp.dir/main.cpp.o: CMakeFiles/RobotOtkApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RobotOtkApp.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/main.cpp.o -MF CMakeFiles/RobotOtkApp.dir/main.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/main.cpp.o -c /home/artsiom/MY/QT_C++/test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/program_for_otk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RobotOtkApp.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/main.cpp.o -MF CMakeFiles/RobotOtkApp.dir/main.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/main.cpp.o -c /home/artsiom/MY/QT_C++/program_for_otk/main.cpp
 
 CMakeFiles/RobotOtkApp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RobotOtkApp.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/test/main.cpp > CMakeFiles/RobotOtkApp.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/program_for_otk/main.cpp > CMakeFiles/RobotOtkApp.dir/main.cpp.i
 
 CMakeFiles/RobotOtkApp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RobotOtkApp.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/test/main.cpp -o CMakeFiles/RobotOtkApp.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/program_for_otk/main.cpp -o CMakeFiles/RobotOtkApp.dir/main.cpp.s
 
 CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o: CMakeFiles/RobotOtkApp.dir/flags.make
-CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o: /home/artsiom/MY/QT_C++/test/mainwindow.cpp
+CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o: /home/artsiom/MY/QT_C++/program_for_otk/mainwindow.cpp
 CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o: CMakeFiles/RobotOtkApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o -MF CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o -c /home/artsiom/MY/QT_C++/test/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/program_for_otk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o -MF CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.o -c /home/artsiom/MY/QT_C++/program_for_otk/mainwindow.cpp
 
 CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/test/mainwindow.cpp > CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/program_for_otk/mainwindow.cpp > CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.i
 
 CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/test/mainwindow.cpp -o CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/program_for_otk/mainwindow.cpp -o CMakeFiles/RobotOtkApp.dir/mainwindow.cpp.s
 
 CMakeFiles/RobotOtkApp.dir/database.cpp.o: CMakeFiles/RobotOtkApp.dir/flags.make
-CMakeFiles/RobotOtkApp.dir/database.cpp.o: /home/artsiom/MY/QT_C++/test/database.cpp
+CMakeFiles/RobotOtkApp.dir/database.cpp.o: /home/artsiom/MY/QT_C++/program_for_otk/database.cpp
 CMakeFiles/RobotOtkApp.dir/database.cpp.o: CMakeFiles/RobotOtkApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RobotOtkApp.dir/database.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/database.cpp.o -MF CMakeFiles/RobotOtkApp.dir/database.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/database.cpp.o -c /home/artsiom/MY/QT_C++/test/database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/program_for_otk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RobotOtkApp.dir/database.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/database.cpp.o -MF CMakeFiles/RobotOtkApp.dir/database.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/database.cpp.o -c /home/artsiom/MY/QT_C++/program_for_otk/database.cpp
 
 CMakeFiles/RobotOtkApp.dir/database.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RobotOtkApp.dir/database.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/test/database.cpp > CMakeFiles/RobotOtkApp.dir/database.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/program_for_otk/database.cpp > CMakeFiles/RobotOtkApp.dir/database.cpp.i
 
 CMakeFiles/RobotOtkApp.dir/database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RobotOtkApp.dir/database.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/test/database.cpp -o CMakeFiles/RobotOtkApp.dir/database.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/program_for_otk/database.cpp -o CMakeFiles/RobotOtkApp.dir/database.cpp.s
 
 CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o: CMakeFiles/RobotOtkApp.dir/flags.make
-CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/addrobotdialog.cpp
+CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/program_for_otk/addrobotdialog.cpp
 CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o: CMakeFiles/RobotOtkApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o -MF CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o -c /home/artsiom/MY/QT_C++/test/addrobotdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/program_for_otk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o -MF CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.o -c /home/artsiom/MY/QT_C++/program_for_otk/addrobotdialog.cpp
 
 CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/test/addrobotdialog.cpp > CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/program_for_otk/addrobotdialog.cpp > CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.i
 
 CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/test/addrobotdialog.cpp -o CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/program_for_otk/addrobotdialog.cpp -o CMakeFiles/RobotOtkApp.dir/addrobotdialog.cpp.s
 
 CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o: CMakeFiles/RobotOtkApp.dir/flags.make
-CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/test/editrobotdialog.cpp
+CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o: /home/artsiom/MY/QT_C++/program_for_otk/editrobotdialog.cpp
 CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o: CMakeFiles/RobotOtkApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o -MF CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o -c /home/artsiom/MY/QT_C++/test/editrobotdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artsiom/MY/QT_C++/program_for_otk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o -MF CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o.d -o CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.o -c /home/artsiom/MY/QT_C++/program_for_otk/editrobotdialog.cpp
 
 CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/test/editrobotdialog.cpp > CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artsiom/MY/QT_C++/program_for_otk/editrobotdialog.cpp > CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.i
 
 CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/test/editrobotdialog.cpp -o CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artsiom/MY/QT_C++/program_for_otk/editrobotdialog.cpp -o CMakeFiles/RobotOtkApp.dir/editrobotdialog.cpp.s
 
 # Object files for target RobotOtkApp
 RobotOtkApp_OBJECTS = \
@@ -177,7 +177,7 @@ RobotOtkApp: /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.15.8
 RobotOtkApp: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.8
 RobotOtkApp: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.8
 RobotOtkApp: CMakeFiles/RobotOtkApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artsiom/MY/QT_C++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable RobotOtkApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artsiom/MY/QT_C++/program_for_otk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable RobotOtkApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RobotOtkApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/RobotOtkApp.dir/clean:
 .PHONY : CMakeFiles/RobotOtkApp.dir/clean
 
 CMakeFiles/RobotOtkApp.dir/depend:
-	cd /home/artsiom/MY/QT_C++/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artsiom/MY/QT_C++/test /home/artsiom/MY/QT_C++/test /home/artsiom/MY/QT_C++/test/build /home/artsiom/MY/QT_C++/test/build /home/artsiom/MY/QT_C++/test/build/CMakeFiles/RobotOtkApp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/artsiom/MY/QT_C++/program_for_otk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artsiom/MY/QT_C++/program_for_otk /home/artsiom/MY/QT_C++/program_for_otk /home/artsiom/MY/QT_C++/program_for_otk/build /home/artsiom/MY/QT_C++/program_for_otk/build /home/artsiom/MY/QT_C++/program_for_otk/build/CMakeFiles/RobotOtkApp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RobotOtkApp.dir/depend
 

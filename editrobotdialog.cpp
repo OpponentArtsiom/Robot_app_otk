@@ -1,5 +1,6 @@
 #include "editrobotdialog.h"
 #include "database.h"
+#include "qplaintextedit.h"
 #include <QVBoxLayout>
 #include <QFormLayout>
 #include <QComboBox>
@@ -12,6 +13,8 @@ EditRobotDialog::EditRobotDialog(int robotId, QWidget *parent)
     : QDialog(parent), id(robotId)
 {
     setWindowTitle("Редактировать робота");
+    setFixedSize(600, 500);
+
 
     modelBox = new QComboBox();
     modelBox->addItems({"RC3", "RC5", "RC10", "-"});
@@ -28,6 +31,7 @@ EditRobotDialog::EditRobotDialog(int robotId, QWidget *parent)
     doneEdit = new QPlainTextEdit();
     requiredEdit = new QPlainTextEdit();
     partsEdit = new QPlainTextEdit();
+    noteEdit = new QPlainTextEdit();
 
     QFormLayout *form = new QFormLayout();
     form->addRow("Модель:", modelBox);
@@ -40,6 +44,7 @@ EditRobotDialog::EditRobotDialog(int robotId, QWidget *parent)
     form->addRow("Проведённые работы:", doneEdit);
     form->addRow("Планируемые работы:", requiredEdit);
     form->addRow("Необходимые запчасти:", partsEdit);
+    form->addRow("Примечание:", noteEdit);
 
     QPushButton *saveBtn = new QPushButton("💾 Сохранить");
     QPushButton *cancelBtn = new QPushButton("❌ Отмена");
@@ -72,6 +77,7 @@ void EditRobotDialog::loadRobotData() {
             doneEdit->setPlainText(r["tasks_done"]);
             requiredEdit->setPlainText(r["tasks_required"]);
             partsEdit->setPlainText(r["required_parts"]);
+            noteEdit->setPlainText(r["note"]);
             break;
         }
     }
@@ -88,6 +94,7 @@ void EditRobotDialog::saveChanges() {
     updateRobot(id, "tasks_done", doneEdit->toPlainText());
     updateRobot(id, "tasks_required", requiredEdit->toPlainText());
     updateRobot(id, "required_parts", partsEdit->toPlainText());
+    updateRobot(id, "note", noteEdit->toPlainText());
 
     QMessageBox::information(this, "Готово", "✅ Изменения сохранены.");
     accept();

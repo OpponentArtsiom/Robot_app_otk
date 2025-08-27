@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artsiom/MY/QT_C++/test
+CMAKE_SOURCE_DIR = /home/artsiom/MY/QT_C++/program_for_otk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artsiom/MY/QT_C++/test/build
+CMAKE_BINARY_DIR = /home/artsiom/MY/QT_C++/program_for_otk/build
 
 # Utility rule file for RobotOtkApp_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/RobotOtkApp_autogen.dir/compiler_depend.make
 include CMakeFiles/RobotOtkApp_autogen.dir/progress.make
 
 CMakeFiles/RobotOtkApp_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/artsiom/MY/QT_C++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target RobotOtkApp"
-	/usr/bin/cmake -E cmake_autogen /home/artsiom/MY/QT_C++/test/build/CMakeFiles/RobotOtkApp_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/artsiom/MY/QT_C++/program_for_otk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target RobotOtkApp"
+	/usr/bin/cmake -E cmake_autogen /home/artsiom/MY/QT_C++/program_for_otk/build/CMakeFiles/RobotOtkApp_autogen.dir/AutogenInfo.json ""
 
 RobotOtkApp_autogen: CMakeFiles/RobotOtkApp_autogen
 RobotOtkApp_autogen: CMakeFiles/RobotOtkApp_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/RobotOtkApp_autogen.dir/clean:
 .PHONY : CMakeFiles/RobotOtkApp_autogen.dir/clean
 
 CMakeFiles/RobotOtkApp_autogen.dir/depend:
-	cd /home/artsiom/MY/QT_C++/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artsiom/MY/QT_C++/test /home/artsiom/MY/QT_C++/test /home/artsiom/MY/QT_C++/test/build /home/artsiom/MY/QT_C++/test/build /home/artsiom/MY/QT_C++/test/build/CMakeFiles/RobotOtkApp_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/artsiom/MY/QT_C++/program_for_otk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artsiom/MY/QT_C++/program_for_otk /home/artsiom/MY/QT_C++/program_for_otk /home/artsiom/MY/QT_C++/program_for_otk/build /home/artsiom/MY/QT_C++/program_for_otk/build /home/artsiom/MY/QT_C++/program_for_otk/build/CMakeFiles/RobotOtkApp_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RobotOtkApp_autogen.dir/depend
 
