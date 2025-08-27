@@ -1,0 +1,4 @@
+/home/artsiom/MY/QT_C++/test/build/CMakeFiles/RobotOtkApp.dir
+/home/artsiom/MY/QT_C++/test/build/CMakeFiles/edit_cache.dir
+/home/artsiom/MY/QT_C++/test/build/CMakeFiles/rebuild_cache.dir
+/home/artsiom/MY/QT_C++/test/build/CMakeFiles/RobotOtkApp_autogen.dir
