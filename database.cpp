@@ -1,8 +1,8 @@
 #include "database.h"
+#include "migrations.h"
 #include <QSqlDatabase>
 #include <QSqlQuery>
 #include <QSqlError>
-#include <QVariant>
 #include <QDebug>
 
 void initDatabase() {
@@ -10,6 +10,7 @@ void initDatabase() {
     db.setDatabaseName("robots.db");
     if (!db.open()) {
         qDebug() << "Ошибка подключения к базе:" << db.lastError().text();
+        return;
     }
 
     QSqlQuery q;
@@ -27,6 +28,8 @@ void initDatabase() {
            "required_parts TEXT,"
            "note TEXT"
            ")");
+
+    applyMigrations(db);  // 💡 Вызов миграций
 }
 
 void insertEmptyRobot() {
@@ -35,6 +38,7 @@ void insertEmptyRobot() {
               "VALUES ('-', '', '', '-', '', '', '', '', '', '', '')");
     q.exec();
 }
+
 
 void insertRobot(const QString &model,
                  const QString &robot_sn,
@@ -64,16 +68,11 @@ void insertRobot(const QString &model,
     q.bindValue(":required_parts", required_parts);
     q.bindValue(":note", note);
 
-    qDebug() << "Запрос:" << q.lastQuery();
-        for (const auto &key : q.boundValues().keys()) {
-            qDebug() << "Параметр:" << key << "=" << q.boundValues().value(key).toString();
-        }
-
-
     if (!q.exec()) {
         qDebug() << "Ошибка при добавлении робота:" << q.lastError().text();
     }
 }
+
 
 void updateRobot(int id, const QString &field, const QString &value) {
     QSqlQuery q;
@@ -83,12 +82,14 @@ void updateRobot(int id, const QString &field, const QString &value) {
     q.exec();
 }
 
+
 void deleteRobot(int id) {
     QSqlQuery q;
     q.prepare("DELETE FROM robots WHERE id = :id");
     q.bindValue(":id", id);
     q.exec();
 }
+
 
 QList<QMap<QString, QString>> getAllRobots() {
     QList<QMap<QString, QString>> list;
@@ -107,8 +108,8 @@ QList<QMap<QString, QString>> getAllRobots() {
         robot["tasks_required"] = q.value("tasks_required").toString();
         robot["required_parts"] = q.value("required_parts").toString();
         robot["note"] = q.value("note").toString();
-
         list.append(robot);
     }
     return list;
 }
+

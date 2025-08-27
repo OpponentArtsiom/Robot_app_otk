@@ -16,6 +16,8 @@ add_executable(RobotOtkApp
     addrobotdialog.cpp
     editrobotdialog.h
     editrobotdialog.cpp
+    migrations.h
+    migrations.cpp
 )
 
 target_link_libraries(RobotOtkApp Qt5::Widgets Qt5::Sql)
