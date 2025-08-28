@@ -15,13 +15,13 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 
     table = new QTableWidget(this);
     headers = QStringList{
-        "id", "model", "robot_sn", "controller_sn",
+        "id", "received_at", "model", "robot_sn", "controller_sn",
         "status", "fault_description", "fault_module",
         "fault_reason", "tasks_done", "tasks_required", "required_parts", "note"
     };
     table->setColumnCount(headers.size());
     table->setHorizontalHeaderLabels({
-        "ID", "Модель", "Серийный № робота", "Серийный № контроллера",
+        "ID", "Дата/Время" , "Модель", "Серийный № робота", "Серийный № контроллера",
         "Текущий статус", "Описание неисправности", "Проблемный узел/модуль",
         "Причина поломки", "Проведенные работы", "Планируемые работы", "Необходимые запчасти", "Примечание"
     });
@@ -87,7 +87,8 @@ void MainWindow::addRobot() {
             dialog.getField("tasks_done"),
             dialog.getField("tasks_required"),
             dialog.getField("required_parts"),
-            dialog.getField("note")
+            dialog.getField("note"),
+            dialog.getField("received_at")
         );
         loadData();
     }

@@ -16,6 +16,7 @@ void initDatabase() {
     QSqlQuery q;
     q.exec("CREATE TABLE IF NOT EXISTS robots ("
            "id INTEGER PRIMARY KEY AUTOINCREMENT,"
+           "received_at TEXT,"
            "model TEXT,"
            "robot_sn TEXT,"
            "controller_sn TEXT,"
@@ -26,16 +27,16 @@ void initDatabase() {
            "tasks_done TEXT,"
            "tasks_required TEXT,"
            "required_parts TEXT,"
-           "note TEXT"
-           ")");
+           "note TEXT)"
+    );
 
     applyMigrations(db);  // 💡 Вызов миграций
 }
 
 void insertEmptyRobot() {
     QSqlQuery q;
-    q.prepare("INSERT INTO robots (model, robot_sn, controller_sn, status, fault_description, fault_module, fault_reason, tasks_done, tasks_required, required_parts, note) "
-              "VALUES ('-', '', '', '-', '', '', '', '', '', '', '')");
+    q.prepare("INSERT INTO robots (model, robot_sn, controller_sn, status, fault_description, fault_module, fault_reason, tasks_done, tasks_required, required_parts, note, received_at) "
+              "VALUES ('-', '', '', '-', '', '', '', '', '', '', '', '')");
     q.exec();
 }
 
@@ -50,11 +51,13 @@ void insertRobot(const QString &model,
                  const QString &tasks_done,
                  const QString &tasks_required,
                  const QString &required_parts,
-                 const QString &note)
+                 const QString &note,
+                 const QString &received_at)
+                  
 {
     QSqlQuery q;
-    q.prepare("INSERT INTO robots (model, robot_sn, controller_sn, status, fault_description, fault_module, fault_reason, tasks_done, tasks_required, required_parts, note) "
-              "VALUES (:model, :robot_sn, :controller_sn, :status, :fault_description, :fault_module, :fault_reason, :tasks_done, :tasks_required, :required_parts, :note)");
+    q.prepare("INSERT INTO robots (model, robot_sn, controller_sn, status, fault_description, fault_module, fault_reason, tasks_done, tasks_required, required_parts, note, received_at) "
+              "VALUES (:model, :robot_sn, :controller_sn, :status, :fault_description, :fault_module, :fault_reason, :tasks_done, :tasks_required, :required_parts, :note, :received_at)");
 
     q.bindValue(":model", model);
     q.bindValue(":robot_sn", robot_sn);
@@ -67,6 +70,7 @@ void insertRobot(const QString &model,
     q.bindValue(":tasks_required", tasks_required);
     q.bindValue(":required_parts", required_parts);
     q.bindValue(":note", note);
+    q.bindValue(":received_at", received_at);
 
     if (!q.exec()) {
         qDebug() << "Ошибка при добавлении робота:" << q.lastError().text();
@@ -97,6 +101,7 @@ QList<QMap<QString, QString>> getAllRobots() {
     while (q.next()) {
         QMap<QString, QString> robot;
         robot["id"] = q.value("id").toString();
+        robot["received_at"] = q.value("received_at").toString();
         robot["model"] = q.value("model").toString();
         robot["robot_sn"] = q.value("robot_sn").toString();
         robot["controller_sn"] = q.value("controller_sn").toString();

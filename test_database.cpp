@@ -17,7 +17,7 @@ void DatabaseTest::initTestCase() {
 }
 
 void DatabaseTest::testInsertRobot() {
-    insertRobot("TestModel", "SN001", "CTRL001", "OK", "desc", "mod", "reason", "10", "20", "parts", "note");
+    insertRobot("TestModel", "SN001", "CTRL001", "OK", "desc", "mod", "reason", "10", "20", "parts", "note", "2025-08-27T16:45:00");
     auto robots = getAllRobots();
     QVERIFY(!robots.isEmpty());
     QCOMPARE(robots.last()["model"], QString("TestModel"));

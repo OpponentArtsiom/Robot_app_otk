@@ -1,7 +1,9 @@
 #pragma once
+#include "qdatetimeedit.h"
 #include <QDialog>
 #include <QMap>
 #include <QString>
+#include <QDateTimeEdit>
 
 class QComboBox;
 class QLineEdit;
@@ -18,6 +20,7 @@ private slots:
 
 private:
     int id;
+    QDateTimeEdit *receivedAtEdit;
     QComboBox *modelBox;
     QLineEdit *robotSnEdit;
     QLineEdit *controllerSnEdit;

@@ -1,5 +1,6 @@
 #include "editrobotdialog.h"
 #include "database.h"
+#include "qdatetimeedit.h"
 #include "qplaintextedit.h"
 #include <QVBoxLayout>
 #include <QFormLayout>
@@ -14,7 +15,10 @@ EditRobotDialog::EditRobotDialog(int robotId, QWidget *parent)
 {
     setWindowTitle("Редактировать робота");
     setFixedSize(600, 500);
-
+    
+    receivedAtEdit = new QDateTimeEdit();
+    receivedAtEdit->setDisplayFormat("yyyy-MM-dd HH:mm:ss");
+    receivedAtEdit->setCalendarPopup(true);
 
     modelBox = new QComboBox();
     modelBox->addItems({"RC3", "RC5", "RC10", "-"});
@@ -34,6 +38,7 @@ EditRobotDialog::EditRobotDialog(int robotId, QWidget *parent)
     noteEdit = new QPlainTextEdit();
 
     QFormLayout *form = new QFormLayout();
+    form->addRow("Дата/Время", receivedAtEdit);
     form->addRow("Модель:", modelBox);
     form->addRow("Серийный № робота:", robotSnEdit);
     form->addRow("Серийный № контроллера:", controllerSnEdit);
@@ -67,6 +72,7 @@ void EditRobotDialog::loadRobotData() {
     auto robots = getAllRobots();
     for (const auto &r : robots) {
         if (r["id"].toInt() == id) {
+            receivedAtEdit->setDateTime(QDateTime::fromString(r["received_at"], "yyyy-MM-dd HH:mm:ss"));
             modelBox->setCurrentText(r["model"]);
             robotSnEdit->setText(r["robot_sn"]);
             controllerSnEdit->setText(r["controller_sn"]);
@@ -84,6 +90,7 @@ void EditRobotDialog::loadRobotData() {
 }
 
 void EditRobotDialog::saveChanges() {
+    updateRobot(id, "received_at", receivedAtEdit->dateTime().toString("yyyy-MM-dd HH:mm:ss"));
     updateRobot(id, "model", modelBox->currentText());
     updateRobot(id, "robot_sn", robotSnEdit->text());
     updateRobot(id, "controller_sn", controllerSnEdit->text());

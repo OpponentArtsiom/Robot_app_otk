@@ -13,6 +13,14 @@ AddRobotDialog::AddRobotDialog(QWidget *parent) : QDialog(parent) {
 
     statusBox = new QComboBox();
     statusBox->addItems({"Необходим ремонт", "Тестируется", "Протестирован", "Откалиброван", "Упакован", "-"});
+   
+    receivedAtEdit = new QDateTimeEdit();
+    receivedAtEdit->setDisplayFormat("yyyy-MM-dd HH:mm:ss");
+    receivedAtEdit->setCalendarPopup(true);
+    receivedAtEdit->setDateTime(QDateTime::currentDateTime());
+
+
+
 
     faultEdit = new QPlainTextEdit();
     moduleEdit = new QPlainTextEdit();
@@ -23,6 +31,7 @@ AddRobotDialog::AddRobotDialog(QWidget *parent) : QDialog(parent) {
     noteEdit = new QPlainTextEdit();
 
     QFormLayout *form = new QFormLayout();
+    form->addRow("Дата/Время", receivedAtEdit);
     form->addRow("Модель:", modelBox);
     form->addRow("Серийный № робота:", robotSnEdit);
     form->addRow("Серийный № контроллера:", controllerSnEdit);
@@ -51,6 +60,7 @@ AddRobotDialog::AddRobotDialog(QWidget *parent) : QDialog(parent) {
 }
 
 QString AddRobotDialog::getField(const QString &name) const {
+    if (name == "received_at") return receivedAtEdit->dateTime().toString("yyyy-MM-dd HH:mm:ss");
     if (name == "model") return modelBox->currentText();
     if (name == "robot_sn") return robotSnEdit->text();
     if (name == "controller_sn") return controllerSnEdit->text();

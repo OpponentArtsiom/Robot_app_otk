@@ -21,4 +21,5 @@ void insertRobot(const QString &model,
                  const QString &tasks_done,
                  const QString &tasks_required,
                  const QString &required_parts,
-                 const QString &note);
+                 const QString &note,
+                 const QString &received_at);

@@ -1,4 +1,5 @@
 #pragma once
+#include "qdatetime.h"
 #include "qplaintextedit.h"
 #include <QDialog>
 #include <QLineEdit>
@@ -7,6 +8,7 @@
 #include <QPushButton>
 #include <QVBoxLayout>
 #include <QFormLayout>
+#include <QDateTimeEdit>
 
 class AddRobotDialog : public QDialog {
     Q_OBJECT
@@ -16,6 +18,7 @@ public:
     QString getField(const QString &name) const;
 
 private:
+    QDateTimeEdit *receivedAtEdit;
     QComboBox *modelBox;
     QLineEdit *robotSnEdit;
     QLineEdit *controllerSnEdit;
